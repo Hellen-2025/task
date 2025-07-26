@@ -32,8 +32,17 @@ public class Task {
         this.status = status;
     }
     
-    
+
 
 
     // Getters - Obtener
+    public String getName() {
+        return name;
+
+    public String getDescription() {
+        return description;
+
+    public boolean getStatus() {
+        return status;
+    }
 }
